@@ -1,0 +1,37 @@
+<html>
+    <head><title>Campus Visit</title>
+    </head>
+    <body>
+        <form name="std_details"method="post">
+            <label>Name:</label>
+            <input type="text"size="50"><br>
+            <br><br>
+            <label>address </label>
+            <textarea height="5" width="50"></textarea>
+            <br><br>
+            <label> Email</label>
+            <input type="email"/><br><br>
+            what are thr things that you like:<br><br>
+            <ul>
+                    <li><input type="checkbox"name="camp">campus</li>
+                    <li><input type="checkbox"name="camp">location</li>
+                    <li><input type="checkbox"name="camp">student</li>
+                    <li><input type="checkbox"name="camp">atmosphere</li>
+                    <li><input type="checkbox"name="camp">dorm room</li>
+                    <li><input type="checkbox"name="camp">sport</li>
+                    </ul><br>
+                    how to become intrested in university <br><br>
+                    <ul>
+                        <li><input type="radio"name="iu">Friends</li>
+                        <li> <input type="radio" name="iu">television</li>
+                        <li><input type="radio" name="iu">internet</li>
+                        <li><input type="radio"name="iu">others</li>
+                    </ul>
+                    <br>
+                    comment <br><br>
+                    <textarea height="5" width="50">
+                    </textarea><br>
+                    <button>submit</button>
+                    </form>
+    </body>
+</html>
